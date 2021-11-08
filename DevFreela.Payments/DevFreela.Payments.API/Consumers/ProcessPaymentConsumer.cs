@@ -17,7 +17,6 @@ namespace DevFreela.Payments.API.Consumers
         private const string PAYMENTS_QUEUE = "Payments";
         private const string APPROVED_PAYMENTS_QUEUE = "ApprovedPayments";
 
-
         private readonly IConnection _connection;
         private readonly IModel _channel;
         private readonly IServiceProvider _serviceProvider;
